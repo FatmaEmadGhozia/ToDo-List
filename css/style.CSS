@@ -1,0 +1,81 @@
+body {
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+.done-icon {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 80px;
+}
+h1{
+    padding-top: 20px;
+}
+.line1 {
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    font-weight: bold;
+}
+.line2 {
+    width: 1000px;
+    height: 2px;
+    background-color: rgb(210, 215, 216);
+}
+.addToCalender {
+    margin-top: -10;
+}
+.calender {
+    background-color: rgb(231, 231, 235);
+}
+.hPriority {
+    background-color: rgb(250, 194, 230);
+}
+.mPriority {
+    background-color: rgb(200, 177, 177);
+}
+.lPriority {
+    background-color: rgb(181, 185, 250);
+}
+#User-Task,#UserhighPeriorityTask,#UsermediumPeriorityTask,#UserlowPeriorityTask {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(203, 203, 204);
+    border-radius: 5px;
+    padding-left: 15px;
+    
+}
+.list_item {
+    width: 250px;
+    height:50px;
+    list-style-type: none;
+    border-radius: 7px;
+}
+.value {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.completed {
+    text-decoration: line-through;
+    color: rgb(164, 163, 163);
+}
+.parent {
+    margin-left:-70px ;
+}
+@media ( max-width : 807px)
+{
+    .lowPeriority {
+        margin-top: 20px;
+    }
+}
+@media ( max-width : 600px)
+{
+    .mediumPeriority {
+        margin-top: 20px;
+    }
+}
+@media ( max-width : 395px)
+{
+    .highPeriority {
+        margin-top: 20px;
+    }
+}
